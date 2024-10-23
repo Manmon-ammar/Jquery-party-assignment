@@ -1,0 +1,65 @@
+/* ! home section */
+.home{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/party.jpg);
+    color: white;
+    background-size: cover;
+}
+.open{
+    cursor: pointer;
+}
+.left-menu{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: -100%;
+}
+.close{
+    cursor: pointer;
+    top: 10px;
+    left: calc(100% - 20px);
+}
+.links a , .close{
+    color: white;
+    transition: color 500ms ease-in-out;
+}
+.links a:hover , .close:hover{
+    color: brown;
+}
+
+/* & details section */
+.accordion-header{
+    cursor: pointer;
+    background-color: rgb(0,0,0);
+}
+.accordion-content{
+    background-color: #CCCCCC;
+    display: none;
+}
+
+/* ^ counter */
+.counter{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(../images/join-us.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.inner{
+    border: 2px solid white;
+}
+
+/* ? contact */
+.social i{
+    color: #808080;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #CCCCCC;
+    cursor: pointer;
+    transition: color 300ms ease-in-out , background-color 300ms ease-in-out;
+}
+.social i:hover{
+    background-color: #DC3545;
+    color: white;
+}
+.charCounter{
+    color: #DC3545;
+}
